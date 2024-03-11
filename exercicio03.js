@@ -1,5 +1,4 @@
-//exercício 3
-let primeiro = 'j';
+let primeiro = '6';
 let segundo = 5 ;
 
 if (primeiro === segundo){
