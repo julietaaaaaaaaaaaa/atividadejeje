@@ -1,3 +1,5 @@
+//Tente acessar um elemento do DOM que não existe e utilize try...catch para lidar com o erro
+
 // Declaração de variáveis
 let celsius = 35;
 let fahrenheit = 0;

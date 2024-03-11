@@ -1,3 +1,6 @@
+//Criando uma função que aceita uma expressão matemática como uma string e retorna o resultado da
+//operação (Utilize try...catch para lidar com erros de sintaxe na expressão)
+
 let primeiro = '6';
 let segundo = 5 ;
 
