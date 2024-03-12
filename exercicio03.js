@@ -1,15 +1,32 @@
 //Criando uma função que aceita uma expressão matemática como uma string e retorna o resultado da
 //operação (Utilize try...catch para lidar com erros de sintaxe na expressão)
 
-let primeiro = '6';
-let segundo = 5 ;
-
-if (primeiro === segundo){
-    console.log("Os números são iguais");
-} else if (primeiro > segundo){
-    console.log("O primeiro número é o maior");
-} else if (primeiro < segundo){
-    console.log("O segundo número é o maior");
-}else {
-    console.log("Não é posível comparar!");
+function calculeExpresaomatematica(expressão1,expressão2){
+const resultado = (expressão1*expressão2); //chamando
+if (resultado){
+    throw new Error("Expressao inválida");
 }
+return expressão1*expressão2;
+} try {
+    const result = calculeExpresaomatematica("6*2"); //colocando expressao em teste
+    console.log("resultado:");
+} catch(error){
+console.log("Não foi possível calcular" , error.message); // string nao consegue ser calculada
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
