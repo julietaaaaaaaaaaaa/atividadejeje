@@ -12,5 +12,5 @@ function objetospropriedades(){
    const valor = objetospropriedades[" propriedade01, propriedade02, propriedade03, propriedade04"];
      console.log(objetospropriedades(valor, proprieadade01));
  }catch (error){
-     console.log("A propriedade "propriedade04" não existe neste objeto.");
+     console.log("A propriedade 'propriedade04' não existe neste objeto.");
  }
